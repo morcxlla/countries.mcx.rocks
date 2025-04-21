@@ -55,6 +55,13 @@ export default function Home() {
             MCX
           </Link>
         </p>
+        <Link
+          href="https://github.com/morcxlla/countries.mcx.rocks"
+          target="_blank"
+          className={buttonVariants({ variant: 'link' })}
+        >
+          Source code
+        </Link>
       </footer>
     </div>
   )
