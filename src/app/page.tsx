@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { TriangleAlertIcon } from 'lucide-react'
+import { InfoIcon, TriangleAlertIcon } from 'lucide-react'
 
 import { buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -9,8 +9,8 @@ import Example from './example'
 export default function Home() {
   return (
     <div className="bg-background mx-auto border-x max-w-6xl">
-      <main className="space-y-6 p-4 min-h-[calc(100vh-3.5rem)]">
-        <h1 className="font-black text-4xl tracking-tighter">Countries</h1>
+      <main className="space-y-5 p-4 min-h-[calc(100vh-3.5rem)]">
+        <h1 className="font-black text-5xl tracking-tighter">Countries</h1>
         <div className="px-4 py-3 border rounded-md">
           <p className="text-sm">
             <TriangleAlertIcon
@@ -18,11 +18,14 @@ export default function Home() {
               size={16}
               aria-hidden="true"
             />
-            The ISO 3166-1 <i>(alpha-3)</i> code is not yet available, but it
-            will be soon.
+            The ISO 3166-1 code <i>(alpha-3)</i> may not be correct.
           </p>
         </div>
+
         <section>
+          <div className="font-mono text-destructive text-sm">
+            Work in progress...
+          </div>
           <div className="flex gap-2">
             <Input
               className="select-all"
@@ -41,11 +44,17 @@ export default function Home() {
 
         <Example />
       </main>
-      <footer className="p-4 border-t h-14">
-        by{' '}
-        <Link href="https://mcx.rocks" target="_blank">
-          MCX
-        </Link>
+      <footer className="flex justify-between items-center p-4 border-t h-14">
+        <p>
+          © {new Date().getFullYear()}
+          <Link
+            href="https://mcx.rocks"
+            target="_blank"
+            className={buttonVariants({ variant: 'link' })}
+          >
+            MCX
+          </Link>
+        </p>
       </footer>
     </div>
   )

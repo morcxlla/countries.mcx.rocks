@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Countries',
-  description: 'by MCX',
+  title: 'Country Codes',
+  description:
+    'Country list with ISO codes – browse all countries and their ISO 3166-1 codes. Access the data via a fast and simple REST API.',
 }
 
 export default function RootLayout({
