@@ -7,8 +7,9 @@ import { Label } from '@/components/ui/label'
 
 export default function Example() {
   const [query, setQuery] = useState('')
-  const [countries, setCountries] = useState<any[]>([])
-
+  const [countries, setCountries] = useState<
+    { name: string; alpha2: string; alpha3: string; UN_observer?: boolean }[]
+  >([])
   useEffect(() => {
     fetch('/api/countries')
       .then((res) => res.json())
@@ -73,7 +74,7 @@ export default function Example() {
           htmlFor="search"
           className="mt-2 font-normal text-muted-foreground text-xs"
         >
-          Search by name, or use "&#123;value&#125;" for exact match and
+          Search by name, or use {'"{value}"'} for exact match and
           <span className="font-bold select-all">@observer</span> to filter UN
           observers.
         </Label>

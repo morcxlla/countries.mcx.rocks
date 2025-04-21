@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { InfoIcon, TriangleAlertIcon } from 'lucide-react'
+import { TriangleAlertIcon } from 'lucide-react'
 
 import { buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
