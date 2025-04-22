@@ -57,7 +57,14 @@ export default function Home() {
             href="https://es.wikipedia.org/wiki/ISO_3166-1"
             target="_blank"
           >
-            Wikipedia
+            Wikipedia (ES)
+          </Link>{' '}
+          <Link
+            className={buttonVariants({ variant: 'link' })}
+            href="https://en.wikipedia.org/wiki/ISO_3166-1"
+            target="_blank"
+          >
+            Wikipedia (EN)
           </Link>
         </p>
       </main>
