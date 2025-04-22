@@ -45,25 +45,34 @@ export default function Example() {
     }
 
     if (query.toLowerCase() === '@repeat') {
-      const allValues = countries.flatMap((c) => [
-        c.name,
-        c.alpha2,
-        c.alpha3,
-        c.localName,
-        c.numeric,
-      ])
+      const valueMap = new Map<string, Set<number>>()
 
-      const duplicates = allValues.filter(
-        (value, index, self) => self.indexOf(value) !== index && value !== null
+      countries.forEach((c, index) => {
+        ;[c.name, c.alpha2, c.alpha3, c.localName, String(c.numeric)].forEach(
+          (value) => {
+            if (value) {
+              if (!valueMap.has(value)) {
+                valueMap.set(value, new Set())
+              }
+              valueMap.get(value)!.add(index)
+            }
+          }
+        )
+      })
+
+      const repeatedValues = new Set(
+        Array.from(valueMap.entries())
+          .filter(([, indexes]) => indexes.size > 1)
+          .map(([value]) => value)
       )
 
       return countries.filter(
         (c) =>
-          duplicates.includes(c.name) ||
-          duplicates.includes(c.alpha2) ||
-          duplicates.includes(c.alpha3) ||
-          duplicates.includes(c.localName) ||
-          duplicates.includes(c.numeric)
+          repeatedValues.has(c.name) ||
+          repeatedValues.has(c.alpha2) ||
+          repeatedValues.has(c.alpha3) ||
+          repeatedValues.has(c.localName) ||
+          repeatedValues.has(String(c.numeric))
       )
     }
 
@@ -71,17 +80,18 @@ export default function Example() {
       const exact = query.slice(1, -1).toLowerCase()
       return countries.filter(
         (c) =>
-          c.name.toLowerCase() === exact ||
+          c.name?.toLowerCase() === exact ||
           c.alpha2?.toLowerCase() === exact ||
           c.alpha3?.toLowerCase() === exact ||
           c.localName?.toLowerCase() === exact ||
-          c.numeric?.toLowerCase() === exact
+          String(c.numeric).toLowerCase() === exact
       )
     }
 
     return countries.filter((c) =>
-      [c.name, c.alpha2, c.alpha3, c.localName, c.numeric].some((v) =>
-        v?.toLowerCase().includes(query.toLowerCase())
+      [c.name, c.alpha2, c.alpha3, c.localName, String(c.numeric)].some(
+        (v) =>
+          typeof v === 'string' && v.toLowerCase().includes(query.toLowerCase())
       )
     )
   }, [query, countries])
