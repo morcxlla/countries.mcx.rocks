@@ -1,7 +1,11 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import Link from 'next/link'
+import { ExternalLinkIcon } from 'lucide-react'
 
+import { cn } from '@/lib/utils'
+import { buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 
@@ -60,7 +64,17 @@ export default function Example() {
   }, [query, countries])
 
   return (
-    <section className="space-y-4 bg-secondary shadow-md p-2 border rounded-md">
+    <section className="relative space-y-4 bg-secondary shadow-md p-2 border rounded-md">
+      <Link
+        href="https://github.com/morcxlla/countries.mcx.rocks/blob/master/src/app/example.tsx"
+        target="_blank"
+        className={cn(
+          buttonVariants({ size: 'icon' }),
+          "absolute -top-2 -right-2 h-6 w-6 [&_svg:not([class*='size-'])]:size-3"
+        )}
+      >
+        <ExternalLinkIcon />
+      </Link>
       <div className="*:not-first:mt-2">
         <Input
           placeholder="Search for a country"
