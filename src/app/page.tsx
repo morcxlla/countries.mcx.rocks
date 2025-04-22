@@ -43,6 +43,23 @@ export default function Home() {
         </section>
 
         <Example />
+        <p>
+          Source:
+          <Link
+            className={buttonVariants({ variant: 'link' })}
+            href="https://www.mjusticia.gob.es/es/Ciudadano/Registros/Documents/1292428778575-CODIGOS_ISO_3166_1.PDF"
+            target="_blank"
+          >
+            Ministerio de Justicia (Spain)
+          </Link>
+          <Link
+            className={buttonVariants({ variant: 'link' })}
+            href="https://es.wikipedia.org/wiki/ISO_3166-1"
+            target="_blank"
+          >
+            Wikipedia
+          </Link>
+        </p>
       </main>
       <footer className="flex justify-between items-center p-4 border-t h-14">
         <p>
