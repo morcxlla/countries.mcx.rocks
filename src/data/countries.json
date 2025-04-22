@@ -4,882 +4,882 @@
     "localName": "افغانستان",
     "alpha2": "AF",
     "alpha3": "AFG",
-    "numeric": null
+    "numeric": "004"
   },
   {
     "name": "Albania",
     "localName": "Shqipëria",
     "alpha2": "AL",
     "alpha3": "ALB",
-    "numeric": null
+    "numeric": "008"
   },
   {
     "name": "Algeria",
     "localName": "الجزائر",
     "alpha2": "DZ",
     "alpha3": "DZA",
-    "numeric": null
+    "numeric": "012"
   },
   {
     "name": "Andorra",
     "localName": "Andorra",
     "alpha2": "AD",
     "alpha3": "AND",
-    "numeric": null
+    "numeric": "020"
   },
   {
     "name": "Angola",
     "localName": "Angola",
     "alpha2": "AO",
     "alpha3": "AGO",
-    "numeric": null
+    "numeric": "024"
   },
   {
     "name": "Argentina",
     "localName": "Argentina",
     "alpha2": "AR",
     "alpha3": "ARG",
-    "numeric": null
+    "numeric": "032"
   },
   {
     "name": "Armenia",
     "localName": "Հայաստան",
     "alpha2": "AM",
     "alpha3": "ARM",
-    "numeric": null
+    "numeric": "051"
   },
   {
     "name": "Australia",
     "localName": "Australia",
     "alpha2": "AU",
     "alpha3": "AUS",
-    "numeric": null
+    "numeric": "036"
   },
   {
     "name": "Austria",
     "localName": "Österreich",
     "alpha2": "AT",
     "alpha3": "AUT",
-    "numeric": null
+    "numeric": "040"
   },
   {
     "name": "Azerbaijan",
     "localName": "Azərbaycan",
     "alpha2": "AZ",
     "alpha3": "AZE",
-    "numeric": null
+    "numeric": "031"
   },
   {
     "name": "Bahamas",
     "localName": "Bahamas",
     "alpha2": "BS",
     "alpha3": "BHS",
-    "numeric": null
+    "numeric": "044"
   },
   {
     "name": "Bahrain",
     "localName": "البحرين",
     "alpha2": "BH",
     "alpha3": "BHR",
-    "numeric": null
+    "numeric": "048"
   },
   {
     "name": "Bangladesh",
     "localName": "বাংলাদেশ",
     "alpha2": "BD",
     "alpha3": "BGD",
-    "numeric": null
+    "numeric": "050"
   },
   {
     "name": "Barbados",
     "localName": "Barbados",
     "alpha2": "BB",
     "alpha3": "BRB",
-    "numeric": null
+    "numeric": "052"
   },
   {
     "name": "Belarus",
     "localName": "Беларусь",
     "alpha2": "BY",
     "alpha3": "BLR",
-    "numeric": null
+    "numeric": "112"
   },
   {
     "name": "Belgium",
     "localName": "België",
     "alpha2": "BE",
     "alpha3": "BEL",
-    "numeric": null
+    "numeric": "056"
   },
   {
     "name": "Belize",
     "localName": "Belize",
     "alpha2": "BZ",
     "alpha3": "BLZ",
-    "numeric": null
+    "numeric": "084"
   },
   {
     "name": "Benin",
     "localName": "Bénin",
     "alpha2": "BJ",
     "alpha3": "BEN",
-    "numeric": null
+    "numeric": "204"
   },
   {
     "name": "Bhutan",
     "localName": "འབྲུག",
     "alpha2": "BT",
     "alpha3": "BTN",
-    "numeric": null
+    "numeric": "064"
   },
   {
     "name": "Bolivia",
     "localName": "Bolivia",
     "alpha2": "BO",
     "alpha3": "BOL",
-    "numeric": null
+    "numeric": "068"
   },
   {
     "name": "Bosnia and Herzegovina",
     "localName": "Bosna i Hercegovina",
     "alpha2": "BA",
     "alpha3": "BIH",
-    "numeric": null
+    "numeric": "070"
   },
   {
     "name": "Botswana",
     "localName": "Botswana",
     "alpha2": "BW",
     "alpha3": "BWA",
-    "numeric": null
+    "numeric": "072"
   },
   {
     "name": "Brazil",
     "localName": "Brasil",
     "alpha2": "BR",
     "alpha3": "BRA",
-    "numeric": null
+    "numeric": "076"
   },
   {
     "name": "Brunei",
     "localName": "Brunei",
     "alpha2": "BN",
     "alpha3": "BRN",
-    "numeric": null
+    "numeric": "096"
   },
   {
     "name": "Bulgaria",
     "localName": "България",
     "alpha2": "BG",
     "alpha3": "BGR",
-    "numeric": null
+    "numeric": "100"
   },
   {
     "name": "Burkina Faso",
     "localName": "Burkina Faso",
     "alpha2": "BF",
     "alpha3": "BFA",
-    "numeric": null
+    "numeric": "854"
   },
   {
     "name": "Burundi",
     "localName": "Burundi",
     "alpha2": "BI",
     "alpha3": "BDI",
-    "numeric": null
+    "numeric": "108"
   },
   {
     "name": "Cambodia",
     "localName": "កម្ពុជា",
     "alpha2": "KH",
     "alpha3": "KHM",
-    "numeric": null
+    "numeric": "116"
   },
   {
     "name": "Cameroon",
     "localName": "Cameroun",
     "alpha2": "CM",
     "alpha3": "CMR",
-    "numeric": null
+    "numeric": "120"
   },
   {
     "name": "Canada",
     "localName": "Canada",
     "alpha2": "CA",
     "alpha3": "CAN",
-    "numeric": null
+    "numeric": "124"
   },
   {
     "name": "Cape Verde",
     "localName": "Cape Verde",
     "alpha2": "CV",
     "alpha3": "CPV",
-    "numeric": null
+    "numeric": "132"
   },
   {
     "name": "Central African Republic",
     "localName": "République Centrafricaine",
     "alpha2": "CF",
     "alpha3": "CAF",
-    "numeric": null
+    "numeric": "140"
   },
   {
     "name": "Chad",
     "localName": "Tchad",
     "alpha2": "TD",
     "alpha3": "TCD",
-    "numeric": null
+    "numeric": "148"
   },
   {
     "name": "Chile",
     "localName": "Chile",
     "alpha2": "CL",
     "alpha3": "CHL",
-    "numeric": null
+    "numeric": "152"
   },
   {
     "name": "China",
     "localName": "中国",
     "alpha2": "CN",
     "alpha3": "CHN",
-    "numeric": null
+    "numeric": "156"
   },
   {
     "name": "Colombia",
     "localName": "Colombia",
     "alpha2": "CO",
     "alpha3": "COL",
-    "numeric": null
+    "numeric": "170"
   },
   {
     "name": "Comoros",
     "localName": "Comores",
     "alpha2": "KM",
     "alpha3": "COM",
-    "numeric": null
+    "numeric": "174"
   },
   {
-    "name": "Congo (Brazzaville)",
+    "name": "Congo",
     "localName": "Congo-Brazzaville",
     "alpha2": "CG",
     "alpha3": "COG",
-    "numeric": null
+    "numeric": "178"
   },
   {
-    "name": "Congo (Kinshasa)",
+    "name": "Democratic Republic of the Congo",
     "localName": "République Démocratique du Congo",
     "alpha2": "CD",
     "alpha3": "COD",
-    "numeric": null
+    "numeric": "180"
   },
   {
     "name": "Costa Rica",
     "localName": "Costa Rica",
     "alpha2": "CR",
     "alpha3": "CRI",
-    "numeric": null
+    "numeric": "188"
   },
   {
     "name": "Croatia",
     "localName": "Hrvatska",
     "alpha2": "HR",
     "alpha3": "HRV",
-    "numeric": null
+    "numeric": "191"
   },
   {
     "name": "Cuba",
     "localName": "Cuba",
     "alpha2": "CU",
     "alpha3": "CUB",
-    "numeric": null
+    "numeric": "192"
   },
   {
     "name": "Cyprus",
     "localName": "Κύπρος",
     "alpha2": "CY",
     "alpha3": "CYP",
-    "numeric": null
+    "numeric": "196"
   },
   {
-    "name": "Czech Republic",
+    "name": "Czechia",
     "localName": "Česká republika",
     "alpha2": "CZ",
     "alpha3": "CZE",
-    "numeric": null
+    "numeric": "203"
   },
   {
     "name": "Denmark",
     "localName": "Denmark",
     "alpha2": "DK",
     "alpha3": "DNK",
-    "numeric": null
+    "numeric": "208"
   },
   {
     "name": "Djibouti",
     "localName": "جيبوتي",
     "alpha2": "DJ",
     "alpha3": "DJI",
-    "numeric": null
+    "numeric": "262"
   },
   {
     "name": "Dominica",
     "localName": "Dominica",
     "alpha2": "DM",
     "alpha3": "DMA",
-    "numeric": null
+    "numeric": "212"
   },
   {
     "name": "Dominican Republic",
     "localName": "República Dominicana",
     "alpha2": "DO",
     "alpha3": "DOM",
-    "numeric": null
+    "numeric": "214"
   },
   {
     "name": "Ecuador",
     "localName": "Ecuador",
     "alpha2": "EC",
     "alpha3": "ECU",
-    "numeric": null
+    "numeric": "218"
   },
   {
     "name": "Egypt",
     "localName": "مصر",
     "alpha2": "EG",
     "alpha3": "EGY",
-    "numeric": null
+    "numeric": "818"
   },
   {
     "name": "El Salvador",
     "localName": "El Salvador",
     "alpha2": "SV",
     "alpha3": "SLV",
-    "numeric": null
+    "numeric": "222"
   },
   {
     "name": "Equatorial Guinea",
     "localName": "Guinea Ecuatorial",
     "alpha2": "GQ",
     "alpha3": "GNQ",
-    "numeric": null
+    "numeric": "226"
   },
   {
     "name": "Eritrea",
     "localName": "إرتريا",
     "alpha2": "ER",
     "alpha3": "ERI",
-    "numeric": null
+    "numeric": "232"
   },
   {
     "name": "Estonia",
     "localName": "Eesti",
     "alpha2": "EE",
     "alpha3": "EST",
-    "numeric": null
+    "numeric": "233"
   },
   {
     "name": "Eswatini",
     "localName": "Eswatini",
     "alpha2": "SZ",
     "alpha3": "SWZ",
-    "numeric": null
+    "numeric": "748"
   },
   {
     "name": "Ethiopia",
     "localName": "ኢትዮጵያ",
     "alpha2": "ET",
     "alpha3": "ETH",
-    "numeric": null
+    "numeric": "231"
   },
   {
     "name": "Fiji",
     "localName": "Fiji",
     "alpha2": "FJ",
     "alpha3": "FJI",
-    "numeric": null
+    "numeric": "242"
   },
   {
     "name": "Finland",
     "localName": "Suomi",
     "alpha2": "FI",
     "alpha3": "FIN",
-    "numeric": null
+    "numeric": "246"
   },
   {
     "name": "France",
     "localName": "France",
     "alpha2": "FR",
     "alpha3": "FRA",
-    "numeric": null
+    "numeric": "250"
   },
   {
     "name": "Gabon",
     "localName": "Gabon",
     "alpha2": "GA",
     "alpha3": "GAB",
-    "numeric": null
+    "numeric": "266"
   },
   {
     "name": "Gambia",
     "localName": "Gambia",
     "alpha2": "GM",
     "alpha3": "GMB",
-    "numeric": null
+    "numeric": "270"
   },
   {
     "name": "Georgia",
     "localName": "საქართველო",
     "alpha2": "GE",
     "alpha3": "GEO",
-    "numeric": null
+    "numeric": "268"
   },
   {
     "name": "Germany",
     "localName": "Deutschland",
     "alpha2": "DE",
     "alpha3": "DEU",
-    "numeric": null
+    "numeric": "276"
   },
   {
     "name": "Ghana",
     "localName": "Ghana",
     "alpha2": "GH",
     "alpha3": "GHA",
-    "numeric": null
+    "numeric": "288"
   },
   {
     "name": "Greece",
     "localName": "Ελλάδα",
     "alpha2": "GR",
     "alpha3": "GRC",
-    "numeric": null
+    "numeric": "300"
   },
   {
     "name": "Grenada",
     "localName": "Grenada",
     "alpha2": "GD",
     "alpha3": "GRD",
-    "numeric": null
+    "numeric": "308"
   },
   {
     "name": "Guatemala",
     "localName": "Guatemala",
     "alpha2": "GT",
     "alpha3": "GTM",
-    "numeric": null
+    "numeric": "320"
   },
   {
     "name": "Guinea",
     "localName": "Guinée",
     "alpha2": "GN",
     "alpha3": "GIN",
-    "numeric": null
+    "numeric": "324"
   },
   {
     "name": "Guinea-Bissau",
     "localName": "Guiné-Bissau",
     "alpha2": "GW",
     "alpha3": "GNB",
-    "numeric": null
+    "numeric": "624"
   },
   {
     "name": "Guyana",
     "localName": "Guyana",
     "alpha2": "GY",
     "alpha3": "GUY",
-    "numeric": null
+    "numeric": "328"
   },
   {
     "name": "Haiti",
     "localName": "Haïti",
     "alpha2": "HT",
     "alpha3": "HTI",
-    "numeric": null
+    "numeric": "332"
   },
   {
     "name": "Honduras",
     "localName": "Honduras",
     "alpha2": "HN",
     "alpha3": "HND",
-    "numeric": null
+    "numeric": "340"
   },
   {
     "name": "Hungary",
     "localName": "Magyarország",
     "alpha2": "HU",
     "alpha3": "HUN",
-    "numeric": null
+    "numeric": "348"
   },
   {
     "name": "Iceland",
     "localName": "Ísland",
     "alpha2": "IS",
     "alpha3": "ISL",
-    "numeric": null
+    "numeric": "352"
   },
   {
     "name": "India",
     "localName": "भारत",
     "alpha2": "IN",
     "alpha3": "IND",
-    "numeric": null
+    "numeric": "356"
   },
   {
     "name": "Indonesia",
     "localName": "Indonesia",
     "alpha2": "ID",
     "alpha3": "IDN",
-    "numeric": null
+    "numeric": "360"
   },
   {
     "name": "Iran",
     "localName": "ایران",
     "alpha2": "IR",
     "alpha3": "IRN",
-    "numeric": null
+    "numeric": "364"
   },
   {
     "name": "Iraq",
     "localName": "العراق",
     "alpha2": "IQ",
     "alpha3": "IRQ",
-    "numeric": null
+    "numeric": "368"
   },
   {
     "name": "Ireland",
     "localName": "Éire",
     "alpha2": "IE",
     "alpha3": "IRL",
-    "numeric": null
+    "numeric": "372"
   },
   {
     "name": "Israel",
     "localName": "ישראל",
     "alpha2": "IL",
     "alpha3": "ISR",
-    "numeric": null
+    "numeric": "376"
   },
   {
     "name": "Italy",
     "localName": "Italia",
     "alpha2": "IT",
     "alpha3": "ITA",
-    "numeric": null
+    "numeric": "380"
   },
   {
     "name": "Jamaica",
     "localName": "Jamaica",
     "alpha2": "JM",
     "alpha3": "JAM",
-    "numeric": null
+    "numeric": "388"
   },
   {
     "name": "Japan",
     "localName": "日本",
     "alpha2": "JP",
     "alpha3": "JPN",
-    "numeric": null
+    "numeric": "392"
   },
   {
     "name": "Jordan",
     "localName": "الأردن",
     "alpha2": "JO",
     "alpha3": "JOR",
-    "numeric": null
+    "numeric": "400"
   },
   {
     "name": "Kazakhstan",
     "localName": "Қазақстан",
     "alpha2": "KZ",
     "alpha3": "KAZ",
-    "numeric": null
+    "numeric": "398"
   },
   {
     "name": "Kenya",
     "localName": "Kenya",
     "alpha2": "KE",
     "alpha3": "KEN",
-    "numeric": null
+    "numeric": "404"
   },
   {
     "name": "Kiribati",
     "localName": "Kiribati",
     "alpha2": "KI",
     "alpha3": "KIR",
-    "numeric": null
+    "numeric": "296"
   },
   {
     "name": "Kuwait",
     "localName": "الكويت",
     "alpha2": "KW",
     "alpha3": "KWT",
-    "numeric": null
+    "numeric": "414"
   },
   {
     "name": "Kyrgyzstan",
     "localName": "Кыргызстан",
     "alpha2": "KG",
     "alpha3": "KGZ",
-    "numeric": null
+    "numeric": "417"
   },
   {
     "name": "Laos",
     "localName": "ລາວ",
     "alpha2": "LA",
     "alpha3": "LAO",
-    "numeric": null
+    "numeric": "418"
   },
   {
     "name": "Latvia",
     "localName": "Latvija",
     "alpha2": "LV",
     "alpha3": "LVA",
-    "numeric": null
+    "numeric": "428"
   },
   {
     "name": "Lebanon",
     "localName": "لبنان",
     "alpha2": "LB",
     "alpha3": "LBN",
-    "numeric": null
+    "numeric": "422"
   },
   {
     "name": "Lesotho",
     "localName": "Lesotho",
     "alpha2": "LS",
     "alpha3": "LSO",
-    "numeric": null
+    "numeric": "426"
   },
   {
     "name": "Liberia",
     "localName": "Liberia",
     "alpha2": "LR",
     "alpha3": "LBR",
-    "numeric": null
+    "numeric": "430"
   },
   {
     "name": "Libya",
     "localName": "ليبيا",
     "alpha2": "LY",
     "alpha3": "LBY",
-    "numeric": null
+    "numeric": "434"
   },
   {
     "name": "Liechtenstein",
     "localName": "Liechtenstein",
     "alpha2": "LI",
     "alpha3": "LIE",
-    "numeric": null
+    "numeric": "438"
   },
   {
     "name": "Lithuania",
     "localName": "Lietuva",
     "alpha2": "LT",
     "alpha3": "LTU",
-    "numeric": null
+    "numeric": "440"
   },
   {
     "name": "Luxembourg",
     "localName": "Lëtzebuerg",
     "alpha2": "LU",
     "alpha3": "LUX",
-    "numeric": null
+    "numeric": "442"
   },
   {
     "name": "Madagascar",
     "localName": "Madagasikara",
     "alpha2": "MG",
     "alpha3": "MDG",
-    "numeric": null
+    "numeric": "450"
   },
   {
     "name": "Malawi",
     "localName": "Malawi",
     "alpha2": "MW",
     "alpha3": "MWI",
-    "numeric": null
+    "numeric": "454"
   },
   {
     "name": "Malaysia",
     "localName": "Malaysia",
     "alpha2": "MY",
     "alpha3": "MYS",
-    "numeric": null
+    "numeric": "458"
   },
   {
     "name": "Maldives",
     "localName": "ދިވެހި",
     "alpha2": "MV",
     "alpha3": "MDV",
-    "numeric": null
+    "numeric": "462"
   },
   {
     "name": "Mali",
     "localName": "Mali",
     "alpha2": "ML",
     "alpha3": "MLI",
-    "numeric": null
+    "numeric": "466"
   },
   {
     "name": "Malta",
     "localName": "Malta",
     "alpha2": "MT",
     "alpha3": "MLT",
-    "numeric": null
+    "numeric": "470"
   },
   {
     "name": "Marshall Islands",
     "localName": "Aolepān Aorōkin M̧ajeļ",
     "alpha2": "MH",
     "alpha3": "MHL",
-    "numeric": null
+    "numeric": "584"
   },
   {
     "name": "Mauritania",
     "localName": "موريتانيا",
     "alpha2": "MR",
     "alpha3": "MRT",
-    "numeric": null
+    "numeric": "478"
   },
   {
     "name": "Mauritius",
     "localName": "Maurice",
     "alpha2": "MU",
     "alpha3": "MUS",
-    "numeric": null
+    "numeric": "480"
   },
   {
     "name": "Mexico",
     "localName": "México",
     "alpha2": "MX",
     "alpha3": "MEX",
-    "numeric": null
+    "numeric": "484"
   },
   {
     "name": "Micronesia",
     "localName": "Federated States of Micronesia",
     "alpha2": "FM",
     "alpha3": "FSM",
-    "numeric": null
+    "numeric": "583"
   },
   {
     "name": "Moldova",
     "localName": "Moldova",
     "alpha2": "MD",
     "alpha3": "MDA",
-    "numeric": null
+    "numeric": "498"
   },
   {
     "name": "Monaco",
     "localName": "Monaco",
     "alpha2": "MC",
     "alpha3": "MCO",
-    "numeric": null
+    "numeric": "492"
   },
   {
     "name": "Mongolia",
     "localName": "Монгол Улс",
     "alpha2": "MN",
     "alpha3": "MNG",
-    "numeric": null
+    "numeric": "496"
   },
   {
     "name": "Montenegro",
     "localName": "Crna Gora",
     "alpha2": "ME",
     "alpha3": "MNE",
-    "numeric": null
+    "numeric": "499"
   },
   {
     "name": "Morocco",
     "localName": "المغرب",
     "alpha2": "MA",
     "alpha3": "MAR",
-    "numeric": null
+    "numeric": "504"
   },
   {
     "name": "Mozambique",
     "localName": "Moçambique",
     "alpha2": "MZ",
     "alpha3": "MOZ",
-    "numeric": null
+    "numeric": "508"
   },
   {
     "name": "Myanmar",
     "localName": "မြန်မာ",
     "alpha2": "MM",
     "alpha3": "MMR",
-    "numeric": null
+    "numeric": "104"
   },
   {
     "name": "Namibia",
     "localName": "Namibië",
     "alpha2": "NA",
     "alpha3": "NAM",
-    "numeric": null
+    "numeric": "516"
   },
   {
     "name": "Nauru",
     "localName": "Nauru",
     "alpha2": "NR",
     "alpha3": "NRU",
-    "numeric": null
+    "numeric": "520"
   },
   {
     "name": "Nepal",
     "localName": "नेपाल",
     "alpha2": "NP",
     "alpha3": "NPL",
-    "numeric": null
+    "numeric": 524
   },
   {
     "name": "Netherlands",
     "localName": "Nederland",
     "alpha2": "NL",
     "alpha3": "NLD",
-    "numeric": null
+    "numeric": "528"
   },
   {
     "name": "New Zealand",
     "localName": "New Zealand",
     "alpha2": "NZ",
     "alpha3": "NZL",
-    "numeric": null
+    "numeric": "554"
   },
   {
     "name": "Nicaragua",
     "localName": "Nicaragua",
     "alpha2": "NI",
     "alpha3": "NIC",
-    "numeric": null
+    "numeric": "558"
   },
   {
     "name": "Niger",
     "localName": "Niger",
     "alpha2": "NE",
     "alpha3": "NER",
-    "numeric": null
+    "numeric": "562"
   },
   {
     "name": "Nigeria",
     "localName": "Nigeria",
     "alpha2": "NG",
     "alpha3": "NGA",
-    "numeric": null
+    "numeric": "566"
   },
   {
     "name": "North Korea",
     "localName": "조선",
     "alpha2": "KP",
     "alpha3": "PRK",
-    "numeric": null
+    "numeric": "408"
   },
   {
     "name": "North Macedonia",
     "localName": "Северна Македонија",
     "alpha2": "MK",
     "alpha3": "MKD",
-    "numeric": null
+    "numeric": "807"
   },
 
   {
@@ -887,462 +887,462 @@
     "localName": "Norge",
     "alpha2": "NO",
     "alpha3": "NOR",
-    "numeric": null
+    "numeric": "578"
   },
   {
     "name": "Oman",
     "localName": "عمان",
     "alpha2": "OM",
     "alpha3": "OMN",
-    "numeric": null
+    "numeric": "512"
   },
   {
     "name": "Pakistan",
     "localName": "پاکستان",
     "alpha2": "PK",
     "alpha3": "PAK",
-    "numeric": null
+    "numeric": "586"
   },
   {
     "name": "Palau",
     "localName": "Belau",
     "alpha2": "PW",
     "alpha3": "PLW",
-    "numeric": null
+    "numeric": "585"
   },
   {
     "name": "Panama",
     "localName": "Panamá",
     "alpha2": "PA",
     "alpha3": "PAN",
-    "numeric": null
+    "numeric": "591"
   },
   {
     "name": "Papua New Guinea",
     "localName": "Papua Niugini",
     "alpha2": "PG",
     "alpha3": "PNG",
-    "numeric": null
+    "numeric": "598"
   },
   {
     "name": "Paraguay",
     "localName": "Paraguay",
     "alpha2": "PY",
     "alpha3": "PRY",
-    "numeric": null
+    "numeric": "600"
   },
   {
     "name": "Peru",
     "localName": "Perú",
     "alpha2": "PE",
     "alpha3": "PER",
-    "numeric": null
+    "numeric": "604"
   },
   {
     "name": "Philippines",
     "localName": "Pilipinas",
     "alpha2": "PH",
     "alpha3": "PHL",
-    "numeric": null
+    "numeric": "608"
   },
   {
     "name": "Poland",
     "localName": "Polska",
     "alpha2": "PL",
     "alpha3": "POL",
-    "numeric": null
+    "numeric": "616"
   },
   {
     "name": "Portugal",
     "localName": "Portugal",
     "alpha2": "PT",
     "alpha3": "PRT",
-    "numeric": null
+    "numeric": "620"
   },
   {
     "name": "Qatar",
     "localName": "قطر",
     "alpha2": "QA",
     "alpha3": "QAT",
-    "numeric": null
+    "numeric": "634"
   },
   {
     "name": "Romania",
     "localName": "România",
     "alpha2": "RO",
     "alpha3": "ROU",
-    "numeric": null
+    "numeric": "642"
   },
   {
     "name": "Russia",
     "localName": "Россия",
     "alpha2": "RU",
     "alpha3": "RUS",
-    "numeric": null
+    "numeric": "643"
   },
   {
     "name": "Rwanda",
     "localName": "Rwanda",
     "alpha2": "RW",
     "alpha3": "RWA",
-    "numeric": null
+    "numeric": "646"
   },
   {
     "name": "Saint Kitts and Nevis",
     "localName": "Saint Kitts and Nevis",
     "alpha2": "KN",
     "alpha3": "KNA",
-    "numeric": null
+    "numeric": "659"
   },
   {
     "name": "Saint Lucia",
     "localName": "Sainte-Lucie",
     "alpha2": "LC",
     "alpha3": "LCA",
-    "numeric": null
+    "numeric": "662"
   },
   {
     "name": "Saint Vincent and the Grenadines",
     "localName": "Saint Vincent and the Grenadines",
     "alpha2": "VC",
     "alpha3": "VCT",
-    "numeric": null
+    "numeric": "670"
   },
   {
     "name": "Samoa",
     "localName": "Sāmoa",
     "alpha2": "WS",
     "alpha3": "WSM",
-    "numeric": null
+    "numeric": "882"
   },
   {
     "name": "San Marino",
     "localName": "San Marino",
     "alpha2": "SM",
     "alpha3": "SMR",
-    "numeric": null
+    "numeric": "674"
   },
   {
     "name": "Sao Tome and Principe",
     "localName": "São Tomé e Príncipe",
     "alpha2": "ST",
     "alpha3": "STP",
-    "numeric": null
+    "numeric": "678"
   },
   {
     "name": "Saudi Arabia",
     "localName": "المملكة العربية السعودية",
     "alpha2": "SA",
     "alpha3": "SAU",
-    "numeric": null
+    "numeric": "682"
   },
   {
     "name": "Senegal",
     "localName": "Sénégal",
     "alpha2": "SN",
     "alpha3": "SEN",
-    "numeric": null
+    "numeric": "686"
   },
   {
     "name": "Serbia",
     "localName": "Србија",
     "alpha2": "RS",
     "alpha3": "SRB",
-    "numeric": null
+    "numeric": "688"
   },
   {
     "name": "Seychelles",
     "localName": "Sesel",
     "alpha2": "SC",
     "alpha3": "SYC",
-    "numeric": null
+    "numeric": "690"
   },
   {
     "name": "Sierra Leone",
     "localName": "Sierra Leone",
     "alpha2": "SL",
     "alpha3": "SLE",
-    "numeric": null
+    "numeric": "694"
   },
   {
     "name": "Singapore",
     "localName": "Singapore",
     "alpha2": "SG",
     "alpha3": "SGP",
-    "numeric": null
+    "numeric": "702"
   },
   {
     "name": "Slovakia",
     "localName": "Slovensko",
     "alpha2": "SK",
     "alpha3": "SVK",
-    "numeric": null
+    "numeric": "703"
   },
   {
     "name": "Slovenia",
     "localName": "Slovenija",
     "alpha2": "SI",
     "alpha3": "SVN",
-    "numeric": null
+    "numeric": "705"
   },
   {
     "name": "Solomon Islands",
     "localName": "Solomon Islands",
     "alpha2": "SB",
     "alpha3": "SLB",
-    "numeric": null
+    "numeric": "090"
   },
   {
     "name": "Somalia",
     "localName": "Soomaaliya",
     "alpha2": "SO",
     "alpha3": "SOM",
-    "numeric": null
+    "numeric": "706"
   },
   {
     "name": "South Africa",
     "localName": "South Africa",
     "alpha2": "ZA",
     "alpha3": "ZAF",
-    "numeric": null
+    "numeric": "710"
   },
   {
     "name": "South Korea",
     "localName": "대한민국",
     "alpha2": "KR",
     "alpha3": "KOR",
-    "numeric": null
+    "numeric": "410"
   },
   {
     "name": "South Sudan",
     "localName": "South Sudan",
     "alpha2": "SS",
     "alpha3": "SSD",
-    "numeric": null
+    "numeric": "728"
   },
   {
     "name": "Spain",
     "localName": "España",
     "alpha2": "ES",
     "alpha3": "ESP",
-    "numeric": null
+    "numeric": "724"
   },
   {
     "name": "Sri Lanka",
     "localName": "ශ්‍රී ලංකාව",
     "alpha2": "LK",
     "alpha3": "LKA",
-    "numeric": null
+    "numeric": "144"
   },
   {
     "name": "Sudan",
     "localName": "السودان",
     "alpha2": "SD",
     "alpha3": "SDN",
-    "numeric": null
+    "numeric": "729"
   },
   {
     "name": "Suriname",
     "localName": "Suriname",
     "alpha2": "SR",
     "alpha3": "SUR",
-    "numeric": null
+    "numeric": "740"
   },
   {
     "name": "Sweden",
     "localName": "Sverige",
     "alpha2": "SE",
     "alpha3": "SWE",
-    "numeric": null
+    "numeric": "752"
   },
   {
     "name": "Switzerland",
     "localName": "Schweiz",
     "alpha2": "CH",
     "alpha3": "CHE",
-    "numeric": null
+    "numeric": "756"
   },
   {
     "name": "Syria",
     "localName": "سوريا",
     "alpha2": "SY",
     "alpha3": "SYR",
-    "numeric": null
+    "numeric": "760"
   },
   {
     "name": "Taiwan",
     "localName": "臺灣",
     "alpha2": "TW",
     "alpha3": "TWN",
-    "numeric": null
+    "numeric": "158"
   },
   {
     "name": "Tajikistan",
     "localName": "Тоҷикистон",
     "alpha2": "TJ",
     "alpha3": "TJK",
-    "numeric": null
+    "numeric": "762"
   },
   {
     "name": "Tanzania",
     "localName": "Tanzania",
     "alpha2": "TZ",
     "alpha3": "TZA",
-    "numeric": null
+    "numeric": "834"
   },
   {
     "name": "Thailand",
     "localName": "ประเทศไทย",
     "alpha2": "TH",
     "alpha3": "THA",
-    "numeric": null
+    "numeric": "764"
   },
   {
     "name": "Timor-Leste",
     "localName": "Timor-Leste",
     "alpha2": "TL",
     "alpha3": "TLS",
-    "numeric": null
+    "numeric": "626"
   },
   {
     "name": "Togo",
     "localName": "Togo",
     "alpha2": "TG",
     "alpha3": "TGO",
-    "numeric": null
+    "numeric": "768"
   },
   {
     "name": "Tonga",
     "localName": "Tonga",
     "alpha2": "TO",
     "alpha3": "TON",
-    "numeric": null
+    "numeric": "776"
   },
   {
     "name": "Trinidad and Tobago",
     "localName": "Trinidad and Tobago",
     "alpha2": "TT",
     "alpha3": "TTO",
-    "numeric": null
+    "numeric": "780"
   },
   {
     "name": "Tunisia",
     "localName": "تونس",
     "alpha2": "TN",
     "alpha3": "TUN",
-    "numeric": null
+    "numeric": "788"
   },
   {
     "name": "Turkey",
     "localName": "Türkiye",
     "alpha2": "TR",
     "alpha3": "TUR",
-    "numeric": null
+    "numeric": "792"
   },
   {
     "name": "Turkmenistan",
     "localName": "Türkmenistan",
     "alpha2": "TM",
     "alpha3": "TKM",
-    "numeric": null
+    "numeric": "795"
   },
   {
     "name": "Tuvalu",
     "localName": "Tuvalu",
     "alpha2": "TV",
     "alpha3": "TUV",
-    "numeric": null
+    "numeric": "798"
   },
   {
     "name": "Uganda",
     "localName": "Uganda",
     "alpha2": "UG",
     "alpha3": "UGA",
-    "numeric": null
+    "numeric": "800"
   },
   {
     "name": "Ukraine",
     "localName": "Україна",
     "alpha2": "UA",
     "alpha3": "UKR",
-    "numeric": null
+    "numeric": "804"
   },
   {
     "name": "United Arab Emirates",
     "localName": "الإمارات العربية المتحدة",
     "alpha2": "AE",
     "alpha3": "ARE",
-    "numeric": null
+    "numeric": "784"
   },
   {
     "name": "United Kingdom",
     "localName": "United Kingdom of Great Britain and Northern Ireland",
     "alpha2": "GB",
     "alpha3": "GBR",
-    "numeric": null
+    "numeric": "826"
   },
   {
     "name": "United States",
     "localName": "United States of America",
     "alpha2": "US",
     "alpha3": "USA",
-    "numeric": null
+    "numeric": "840"
   },
   {
     "name": "Uruguay",
     "localName": "Uruguay",
     "alpha2": "UY",
     "alpha3": "URY",
-    "numeric": null
+    "numeric": "858"
   },
   {
     "name": "Uzbekistan",
     "localName": "Oʻzbekiston",
     "alpha2": "UZ",
     "alpha3": "UZB",
-    "numeric": null
+    "numeric": "860"
   },
   {
     "name": "Vanuatu",
     "localName": "Vanuatu",
     "alpha2": "VU",
     "alpha3": "VUT",
-    "numeric": null
+    "numeric": "548"
   },
   {
     "name": "Venezuela",
     "localName": "Venezuela",
     "alpha2": "VE",
     "alpha3": "VEZ",
-    "numeric": null
+    "numeric": "862"
   },
   {
     "name": "Vietnam",
     "localName": "Việt Nam",
     "alpha2": "VN",
     "alpha3": "VNM",
-    "numeric": null
+    "numeric": "704"
   },
   {
     "name": "Yemen",
     "localName": "اليمن",
     "alpha2": "YE",
     "alpha3": "YEM",
-    "numeric": null
+    "numeric": "887"
   },
   {
     "name": "Zambia",
     "localName": "Zambia",
     "alpha2": "ZM",
     "alpha3": "ZMB",
-    "numeric": null
+    "numeric": "894"
   },
   {
     "name": "Zimbabwe",
     "localName": "Zimbabwe",
     "alpha2": "ZW",
     "alpha3": "ZWE",
-    "numeric": null
+    "numeric": "716"
   },
   {
     "name": "Kosovo",
@@ -1357,7 +1357,7 @@
     "localName": "Città del Vaticano",
     "alpha2": "VA",
     "alpha3": "VAT",
-    "numeric": null,
+    "numeric": "336",
     "UN_observer": true
   },
   {
@@ -1365,7 +1365,7 @@
     "localName": "فلسطين",
     "alpha2": "PS",
     "alpha3": "PSE",
-    "numeric": null,
+    "numeric": "275",
     "UN_observer": true
   }
 ]
