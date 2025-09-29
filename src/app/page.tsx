@@ -5,12 +5,13 @@ import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
+import Docs from './docs'
 import Example from './example'
 
 export default function Home() {
   return (
     <div className="bg-background mx-auto border-x max-w-6xl">
-      <main className="space-y-5 p-4 min-h-[calc(100vh-3.5rem)]">
+      <main className="space-y-6 p-4 min-h-dvh">
         <h1 className="font-black text-4xl tracking-tighter">Countries</h1>
         <div className="px-4 py-3 border">
           <p className="text-sm">
@@ -51,6 +52,8 @@ export default function Home() {
         </section>
 
         <Example />
+        <Docs />
+
         <p>
           Source:
           <Link

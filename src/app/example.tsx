@@ -34,7 +34,7 @@ const Example = () => {
           observers.
         </Label>
       </div>
-      <pre className="font-mono text-xs">
+      <pre className="max-h-156 overflow-auto font-mono text-xs">
         {JSON.stringify(countries, null, 2)}
       </pre>
     </section>
