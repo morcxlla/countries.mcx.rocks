@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { TriangleAlertIcon } from 'lucide-react'
 
+import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
@@ -18,21 +19,31 @@ export default function Home() {
               size={16}
               aria-hidden="true"
             />
-            The ISO 3166-1 code <i>(alpha-3)</i> may not be correct.
+            This list of country codes may not reflect the latest geopolitical
+            changes. Please verify with official sources if accuracy is
+            critical.
           </p>
         </div>
 
         <section>
           <div className="flex gap-2">
-            <Input
-              className="select-all"
-              placeholder="https://countries.mcx.rocks/api/countries"
-              defaultValue="https://countries.mcx.rocks/api/countries"
-              readOnly
-            />
+            <div className="relative w-full">
+              <div className="left-2 absolute inset-y-1/2 flex justify-center items-center">
+                <Badge className="bg-[#0f0] font-black text-foreground">
+                  GET
+                </Badge>
+              </div>
+
+              <Input
+                className="pl-14 select-all"
+                placeholder="https://countries.mcx.rocks/api"
+                defaultValue="https://countries.mcx.rocks/api"
+                readOnly
+              />
+            </div>
             <Link
               className={buttonVariants({ variant: 'outline' })}
-              href="/api/countries"
+              href="/api"
             >
               Open
             </Link>
