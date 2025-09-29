@@ -97,7 +97,7 @@ export default function Example() {
   }, [query, countries])
 
   return (
-    <section className="relative space-y-4 bg-secondary shadow-md p-2 border rounded-md">
+    <section className="relative space-y-4 bg-secondary shadow-md p-2 border">
       <Link
         href="https://github.com/morcxlla/countries.mcx.rocks/blob/master/src/app/example.tsx"
         target="_blank"

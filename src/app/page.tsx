@@ -11,7 +11,7 @@ export default function Home() {
     <div className="bg-background mx-auto border-x max-w-6xl">
       <main className="space-y-5 p-4 min-h-[calc(100vh-3.5rem)]">
         <h1 className="font-black text-5xl tracking-tighter">Countries</h1>
-        <div className="px-4 py-3 border rounded-md">
+        <div className="px-4 py-3 border">
           <p className="text-sm">
             <TriangleAlertIcon
               className="inline-flex me-3 -mt-0.5 text-amber-500"
