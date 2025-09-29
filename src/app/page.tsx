@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="bg-background mx-auto border-x max-w-6xl">
       <main className="space-y-5 p-4 min-h-[calc(100vh-3.5rem)]">
-        <h1 className="font-black text-5xl tracking-tighter">Countries</h1>
+        <h1 className="font-black text-4xl tracking-tighter">Countries</h1>
         <div className="px-4 py-3 border">
           <p className="text-sm">
             <TriangleAlertIcon
@@ -23,9 +23,6 @@ export default function Home() {
         </div>
 
         <section>
-          <div className="font-mono text-destructive text-sm">
-            Work in progress...
-          </div>
           <div className="flex gap-2">
             <Input
               className="select-all"
