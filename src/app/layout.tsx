@@ -1,20 +1,25 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { JetBrains_Mono, Noto_Sans } from 'next/font/google'
 
 import './globals.css'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+import { cn } from '@/lib/utils'
+
+const fontSans = Noto_Sans({
+  variable: '--font-custom-sans',
   subsets: ['latin'],
 })
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const fontMono = JetBrains_Mono({
+  variable: '--font-custom-mono',
   subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
-  title: 'Country Codes',
+  title: {
+    default: 'Country Codes',
+    template: '%s – Country Codes',
+  },
   description:
     'Country list with ISO codes – browse all countries and their ISO 3166-1 codes. Access the data via a fast and simple REST API.',
 }
@@ -27,7 +32,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-secondary`}
+        className={cn(
+          'bg-secondary font-mono antialiased',
+          fontSans.variable,
+          fontMono.variable
+        )}
       >
         {children}
       </body>
