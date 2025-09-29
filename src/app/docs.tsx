@@ -22,7 +22,7 @@ const Docs = () => {
         </thead>
         <tbody>
           <tr>
-            <td>"exact"</td>
+            <td>{'"exact"'}</td>
             <td>
               Exact match (case-sensitive) for <code>name</code>,{' '}
               <code>alpha2</code>, <code>alpha3</code>, <code>localName</code>,
@@ -97,7 +97,8 @@ const Docs = () => {
       </pre>
 
       <p>
-        Returns all countries whose name, code, or numeric value contains "esp"
+        Returns all countries whose name, code, or numeric value contains{' '}
+        {'"esp"'}
         (case-insensitive).
       </p>
 

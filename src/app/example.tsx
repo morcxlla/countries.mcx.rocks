@@ -7,7 +7,7 @@ import { Label } from '@/components/ui/label'
 
 const Example = () => {
   const [query, setQuery] = useState('')
-  const [countries, setCountries] = useState<any[]>([])
+  const [countries, setCountries] = useState<unknown[]>([])
 
   useEffect(() => {
     fetch(`/api?q=${encodeURIComponent(query)}`)
