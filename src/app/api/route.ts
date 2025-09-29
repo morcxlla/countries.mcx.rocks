@@ -1,50 +1,14 @@
 import { NextResponse } from 'next/server'
 import countries from '@/data/countries.json'
 
-const GET = async (req: Request) => {
+export function GET(req: Request) {
   const url = new URL(req.url)
-  const query = url.searchParams.get('q')?.toLowerCase() || ''
-
+  const rawQuery = url.searchParams.get('q') || '' // keep original for exact match
   let result = [...countries]
 
-  if (query === '@observer') {
-    result = result.filter((c) => c.UN_observer)
-  } else if (query === '@null') {
-    result = result.filter(
-      (c) =>
-        c.name === null ||
-        c.alpha2 === null ||
-        c.alpha3 === null ||
-        c.localName === null ||
-        c.numeric === null
-    )
-  } else if (query === '@repeat') {
-    const valueMap = new Map<string, Set<number>>()
-    countries.forEach((c, index) => {
-      ;[c.name, c.alpha2, c.alpha3, c.localName, String(c.numeric)].forEach(
-        (value) => {
-          if (value) {
-            if (!valueMap.has(value)) valueMap.set(value, new Set())
-            valueMap.get(value)!.add(index)
-          }
-        }
-      )
-    })
-    const repeatedValues = new Set(
-      Array.from(valueMap.entries())
-        .filter(([, indexes]) => indexes.size > 1)
-        .map(([value]) => value)
-    )
-    result = countries.filter(
-      (c) =>
-        repeatedValues.has(c.name) ||
-        repeatedValues.has(c.alpha2) ||
-        repeatedValues.has(c.alpha3) ||
-        repeatedValues.has(c.localName) ||
-        repeatedValues.has(String(c.numeric))
-    )
-  } else if (query.startsWith('"') && query.endsWith('"')) {
-    const exact = query.slice(1, -1)
+  // Exact match: case-sensitive, use rawQuery
+  if (rawQuery.startsWith('"') && rawQuery.endsWith('"')) {
+    const exact = rawQuery.slice(1, -1)
     result = countries.filter(
       (c) =>
         c.name === exact ||
@@ -53,12 +17,52 @@ const GET = async (req: Request) => {
         c.localName === exact ||
         String(c.numeric) === exact
     )
-  } else if (query) {
-    result = countries.filter((c) =>
-      [c.name, c.alpha2, c.alpha3, c.localName, String(c.numeric)].some(
-        (v) => typeof v === 'string' && v.toLowerCase().includes(query)
+  } else {
+    const query = rawQuery.toLowerCase()
+
+    if (query === '@observer') {
+      result = countries.filter((c) => c.UN_observer)
+    } else if (query === '@null') {
+      result = countries.filter(
+        (c) =>
+          c.name === null ||
+          c.alpha2 === null ||
+          c.alpha3 === null ||
+          c.localName === null ||
+          c.numeric === null
       )
-    )
+    } else if (query === '@repeat') {
+      const valueMap = new Map<string, Set<number>>()
+      countries.forEach((c, index) => {
+        ;[c.name, c.alpha2, c.alpha3, c.localName, String(c.numeric)].forEach(
+          (value) => {
+            if (value) {
+              if (!valueMap.has(value)) valueMap.set(value, new Set())
+              valueMap.get(value)!.add(index)
+            }
+          }
+        )
+      })
+      const repeatedValues = new Set(
+        Array.from(valueMap.entries())
+          .filter(([, indexes]) => indexes.size > 1)
+          .map(([value]) => value)
+      )
+      result = countries.filter(
+        (c) =>
+          repeatedValues.has(c.name) ||
+          repeatedValues.has(c.alpha2) ||
+          repeatedValues.has(c.alpha3) ||
+          repeatedValues.has(c.localName) ||
+          repeatedValues.has(String(c.numeric))
+      )
+    } else if (query) {
+      result = countries.filter((c) =>
+        [c.name, c.alpha2, c.alpha3, c.localName, String(c.numeric)].some(
+          (v) => typeof v === 'string' && v.toLowerCase().includes(query)
+        )
+      )
+    }
   }
 
   // Sort UN observers last, then by name
@@ -72,5 +76,3 @@ const GET = async (req: Request) => {
   res.headers.set('Access-Control-Allow-Origin', '*')
   return res
 }
-
-export { GET }
